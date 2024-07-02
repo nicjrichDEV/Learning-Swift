@@ -11,5 +11,6 @@
         <page name='OOP'/>
         <page name='Structs'/>
         <page name='Enums'/>
+        <page name='Classes'/>
     </pages>
 </playground>
