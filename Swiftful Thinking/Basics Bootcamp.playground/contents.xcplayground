@@ -17,5 +17,6 @@
         <page name='Dictionaries'/>
         <page name='ForLoops'/>
         <page name='FilterSortMap'/>
+        <page name='Protocols'/>
     </pages>
 </playground>
