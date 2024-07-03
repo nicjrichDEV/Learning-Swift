@@ -8,14 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selectedItem: String?
+    
     var body: some View {
-        Form {
-            Text("Test")
+        NavigationSplitView {
+            List(selection: $selectedItem) {
+                Label("Home", systemImage: "house")
+                    .tag("home")
+            }
+        } content: {
+            Text("Content1")
+                .frame(width: 200, height: 20)
+        } detail: {
+            if let selectedItem {
+                Text("Selected \(selectedItem)")
+            } else {
+                Text("Select an item")
+            }
         }
+        .navigationTitle("Figstory")
     }
 }
 
 #Preview {
     ContentView()
-        .frame(width: 500, height: 200)
+        .frame(width: 800, height: 800)
 }
