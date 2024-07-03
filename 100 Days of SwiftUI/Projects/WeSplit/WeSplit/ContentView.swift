@@ -33,7 +33,6 @@ struct ContentView: View {
         
         return grandTotal
     }
-    
     var body: some View {
         NavigationStack {
             Form {
@@ -79,6 +78,10 @@ struct ContentView: View {
                         Spacer()
                         Text(totalPerPerson, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
                     }
+                } header: {
+                    Text("Header")
+                } footer: {
+                    Text("Footer")
                 }
                 
             }

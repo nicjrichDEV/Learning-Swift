@@ -16,5 +16,6 @@
         <page name='Arrays'/>
         <page name='Dictionaries'/>
         <page name='ForLoops'/>
+        <page name='FilterSortMap'/>
     </pages>
 </playground>
