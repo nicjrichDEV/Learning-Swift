@@ -34,6 +34,7 @@ import Foundation
  Objects in the Stack
  - String, Bool, Int, most of your basic types including Dates
  - Structs and Enums are also in the stack
+ - Arrays
  
  Objects in the Heap
  - Functions
