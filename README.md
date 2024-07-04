@@ -6,8 +6,12 @@ This repo contains a bunch of tutorial outputs from the following courses:
 
 Not sure if its the best idea to packge everything under a single repo 🤷 but hey its worth a shot!
 
+------
+
 ### Looking for Mentorship
 If you are someone that has the capcity to take on a driven newbe into the Apple development world please reach out to me via the links below.
+
+------
 
 ### Follow my Progress
 If you are interested you can follow my progress through Pauls course via X and Mastadon, links below:
