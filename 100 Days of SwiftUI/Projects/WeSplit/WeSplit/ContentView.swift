@@ -50,14 +50,14 @@ struct ContentView: View {
                 
                 Section("Tip Percentage:") {
                     Picker("Percentage", selection: $tipPercentage) {
-                        ForEach(tipPercentages, id: \.self) {
+                        ForEach(0..<101, id: \.self) {
                             Text($0, format: .percent)
                         }
                     }
-                    .pickerStyle(.segmented)
+                    .pickerStyle(.navigationLink)
                 }
                 
-                Section {
+                Section(header: Text("Details")) {
                     HStack {
                         Text("Check Amount:")
                         Spacer()
@@ -78,10 +78,6 @@ struct ContentView: View {
                         Spacer()
                         Text(totalPerPerson, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
                     }
-                } header: {
-                    Text("Header")
-                } footer: {
-                    Text("Footer")
                 }
                 
             }
