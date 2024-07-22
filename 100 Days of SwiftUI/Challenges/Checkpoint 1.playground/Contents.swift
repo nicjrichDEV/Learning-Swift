@@ -11,8 +11,8 @@ func toCelsius(fahrenheit: Double) -> Double {
     return ((fahrenheit - 32) * 5) / 9
 }
 
-let toF = toFahrenheit(celsius: tempC)
-let toC = toCelsius(fahrenheit: tempF)
+let convertedToF = toFahrenheit(celsius: tempC)
+let convertedToC = toCelsius(fahrenheit: tempF)
 
-print("\(tempC) converted to Fahrenheit is \(toF)℉")
-print("\(tempF) converted to Celsius is \(toC)℃")
+print("\(tempC) converted to Fahrenheit is \(convertedToF)℉")
+print("\(tempF) converted to Celsius is \(convertedToC)℃")
